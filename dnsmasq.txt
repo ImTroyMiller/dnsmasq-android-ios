@@ -1,0 +1,68 @@
+#Android -> Account & sync -> Add account -> Google
+##good, 114DNS
+server=/android.clients.google.com/114.114.114.114
+##bad, because google CN IP no ssl
+#address=/android.clients.google.com/203.208.45.211
+##good, google USA IP
+#address=/android.clients.google.com/74.125.31.100
+
+#Android -> Gtalk
+##good, 114DNS
+server=/mtalk.google.com/114.114.114.114
+##bad, google CN
+#address=/mtalk.google.com/203.208.45.211
+##good, google USA IP
+#address=/mtalk.google.com/74.125.71.188
+
+
+#Android -> Google Play -> install
+address=/.c.android.clients.google.com/203.208.45.211
+
+#google photo
+#Android -> Google Play -> app logo and screenshot
+#Web -> Google Play
+address=/.ggpht.com/203.208.45.211
+
+#google user content
+#Android -> Google+ -> user avatar and feed img
+#Web -> Google+ 
+address=/.googleusercontent.com/203.208.45.211
+
+#google cn
+#Web -> Google ditu
+address=/.google.cn/203.208.45.211
+address=/google.cn/203.208.45.211
+address=/g.cn/203.208.45.211
+
+#google static
+#Web -> Google images search
+address=/.gstatic.com/203.208.45.211
+
+#Web https -> google images search
+address=/encrypted-tbn1.google.com/203.208.45.211
+
+#Web -> Google Play
+address=/play.google.com/203.208.45.211
+address=/apis.google.com/203.208.45.211
+
+#Web -> Gmail
+address=/clients2.google.com/203.208.45.211
+
+#Web
+address=/google.com/203.208.45.211
+address=/www.google.com/203.208.45.211
+address=/www.google.com.hk/203.208.45.211
+address=/accounts.google.com/203.208.45.211
+address=/mail.google.com/203.208.45.211
+address=/code.google.com/203.208.45.211
+address=/translate.google.com/203.208.45.211
+address=/translate.google.com.hk/203.208.45.211
+address=/docs.google.com/203.208.45.211
+address=/profiles.google.com/203.208.45.211
+address=/plus.google.com/203.208.45.211
+address=/picasaweb.google.com/203.208.45.211
+address=/news.google.com/203.208.45.211
+address=/ditu.google.com/203.208.45.211
+
+#apple app store
+address=/.phobos.apple.com/202.175.5.114
